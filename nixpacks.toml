@@ -1,11 +1,2 @@
-[phases.setup]
-nixpkgsArchive = "https://github.com/NixOS/nixpkgs/archive/refs/tags/24.05.tar.gz"
-
-[phases.install]
-cmds = ["npm ci"]
-
-[phases.build]
-cmds = ["npm run build"]
-
-[start]
-cmd = "npx serve -s dist -l 4005"
+[phases.start]
+cmds = ["npm run start"]
