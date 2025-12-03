@@ -7,6 +7,7 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
+    "start": "serve -s dist -l 4005",
     "preview": "vite preview --port 4002"
   },
   "dependencies": {
